@@ -1,0 +1,117 @@
+body{
+box-sizing: border-box;
+font-family: black ops one;
+letter-spacing: 1.5px;
+background-color: #1A1B21;
+}
+#root {
+  max-width: 1280px;
+  
+  margin: 0 auto;
+  
+  
+}
+.email,.linked{
+  background-color: #ffff;
+  padding: .4em;
+  color: #494b54;
+  border-radius: 10px;
+  font-weight: bolder;
+
+}
+#linkedelse{
+background-color:#5093E2;
+color: aliceblue;
+}
+.email-logo-img{
+  width: 1.2em;
+  margin-right:.3em;
+ 
+  
+}
+.App{
+  font-size: 1rem;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #494b54;
+  padding: 2em 2em;
+  padding-bottom: .7em;;
+  border-radius: 10px;
+  color: #ffff;
+  
+}
+.info >  img{
+  width:40vw;
+  max-height: 60vh;
+  object-fit: contain;
+   border-radius: 10px;
+   opacity: 0.8;
+  
+  
+}
+p{
+  letter-spacing: 1px;
+  margin-top: .25em;
+}
+.info{
+  text-align: center;
+  max-width: 60vw;
+  border-bottom:1px solid #1A1B21;
+  padding-bottom: 1em;
+  
+
+}
+.About{
+  max-width: 60vw;
+  
+  
+}
+.Interests{
+  max-width: 60vw;
+}
+.gold{
+  color: #F3BF99;
+  letter-spacing: 1px;
+}
+.name{
+  letter-spacing: 3px;
+}
+.under{
+  border-left: 5px double #1A1B21;
+  border-bottom: 5px double #1A1B21;
+  border-top: 5px double #1A1B21;
+  padding-left: .4em;
+  margin-bottom: 0;
+  color: #1A1B21;
+}
+.contact{
+  width: 16em;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+}
+.twitter-logo , .facebook-logo , .instagram-logo
+,.github-logo{
+  width: 10em;
+
+}
+
+.footer img{
+  width: 10%;
+  border-radius: 50%;
+  object-fit: cover;
+ 
+ 
+}
+.footer{
+  margin-top: 3em;
+  max-width: 60vw;
+  padding: .5em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #1A1B21;
+ 
+}
+.github-logo {
+  background: rgb(59, 52, 52);
+}
